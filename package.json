@@ -1,10 +1,10 @@
 {
-  "name": "starter-express-api",
+  "name": "tictactoe_backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "tsc && node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
+    "@types/express": "^4.17.21",
+    "socket.io": "^4.7.4",
     "express": "^4.18.2"
   }
 }
