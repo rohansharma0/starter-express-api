@@ -4,7 +4,7 @@ import { GAME_STATUS, Room } from "./types/Room";
 
 const io = new Server({
     cors: {
-        origin: "http://localhost:5173"
+        origin: "https://projects-8c267.web.app"
     }
 });
 

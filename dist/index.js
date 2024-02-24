@@ -5,7 +5,7 @@ const Player_1 = require("./types/Player");
 const Room_1 = require("./types/Room");
 const io = new socket_io_1.Server({
     cors: {
-        origin: "http://localhost:5173"
+        origin: "https://projects-8c267.web.app"
     }
 });
 let roomList = [];
